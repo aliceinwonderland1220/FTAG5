@@ -9,3 +9,5 @@
 
 # ignore specific files
 commit.txt
+CMakeLists.txt
+repofile
