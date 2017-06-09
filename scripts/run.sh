@@ -3,7 +3,8 @@
 set -eu
 
 # go to the run directory
-cd WorkArea/run
+mkdir -p run
+cd run
 
 Reco_tf.py \
     --preExec 'from BTagging.BTaggingFlags import BTaggingFlags;BTaggingFlags.CalibrationTag = "BTagCalibRUN12-08-29";BTaggingFlags.ForceMV2CalibrationAlias=False;' \
