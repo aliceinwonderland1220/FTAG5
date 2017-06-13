@@ -7,7 +7,7 @@ mkdir -p run
 cd run
 
 Reco_tf.py \
-    --preExec 'from BTagging.BTaggingFlags import BTaggingFlags;BTaggingFlags.CalibrationTag = "BTagCalibRUN12-08-29";BTaggingFlags.ForceMV2CalibrationAlias=False;' \
+    --preExec 'from BTagging.BTaggingFlags import BTaggingFlags;BTaggingFlags.CalibrationTag = "BTagCalibRUN12-08-40"' \
     --inputAODFile \
     /afs/cern.ch/user/d/dguest/afswork/data/mc16_13TeV.410501.PowhegPythia8EvtGen_A14_ttbar_hdamp258p75_nonallhad.merge.AOD.e5458_s3126_r9364_r9315/*.root* \
     --outputDAODFile FTAG2.pool.root \
