@@ -5,6 +5,6 @@ echo -n "setting up local ATLAS environment..."
 setupATLAS -q
 lsetup asetup -q
 
-. $AtlasSetup/scripts/asetup.sh 21.0.11.1,AtlasDerivation,here > /dev/null
+. $AtlasSetup/scripts/asetup.sh 21.0.19.3,AtlasDerivation,here > /dev/null
 echo "done"
 
